@@ -289,7 +289,7 @@ const __$$hmAppManager$$__ = new class HmAppManager {
   /**
    * @type {{
    *  current: {
-   *   module: string
+   *   module
    * },
    * app: {
    *  __globals__: {}
@@ -298,7 +298,7 @@ const __$$hmAppManager$$__ = new class HmAppManager {
    */
   currentApp = {
     current: {
-      module: ""
+      module
     },
     app: {
       __globals__: {}

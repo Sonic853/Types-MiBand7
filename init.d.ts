@@ -154,7 +154,11 @@ interface WIDGET {
    * @param option 参数
    */
   createWidget(widgetId: WIDGET_ID, options: createWidgetOptions): HmUIWidget
-  addEventListener()
+  addEventListener(eventId: HmUIEvent, callback: (event) => void): void
+  // getProperty(propType: HmUIProp)
+}
+interface HmUIProp {
+  CURRENT_TYPE
 }
 interface HmUIEvent {
   /** 滑动 */
