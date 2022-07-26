@@ -19,7 +19,7 @@ const hmUI = new class HMUI {
      * 只在息屏模式显示
      * @type {"只在息屏模式显示"}
      */
-    ONAL_AOD = "0010"
+    ONLY_AOD = "0010"
     /**
      * 只在编辑模式显示
      * @type {"只在编辑模式显示"}
@@ -180,6 +180,8 @@ const hmUI = new class HMUI {
     TEXT = "TEXT"
     /** 组 */
     GROUP = "GROUP"
+    /** 可编辑组 */
+    WATCHFACE_EDIT_GROUP = "WATCHFACE_EDIT_GROUP"
   }
   event = new class {
     /** 滑动 */
@@ -192,6 +194,9 @@ const hmUI = new class HMUI {
     MOVE_IN = "MOVE_IN"
     /** 划出 */
     MOVE_OUT = "MOVE_OUT"
+  }
+  prop = new class {
+    CURRENT_TYPE = "CURRENT_TYPE"
   }
   /** 
    * 创建 UI 控件
@@ -269,11 +274,11 @@ const hmUI = new class HMUI {
   }
 }
 const DeviceRuntimeCore = new class DeviceRuntimeCore {
-  WidgetFactory = class{
-    constructor(e, o){}
+  WidgetFactory = class {
+    constructor(e, o) { }
   }
-  HmDomApi = class{
-    constructor(e, o){}
+  HmDomApi = class {
+    constructor(e, o) { }
   }
   HmLogger = new class {
     getLogger() { }

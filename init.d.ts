@@ -4,8 +4,17 @@
 // 警告结束
 /** 显示级别 */
 interface ShowLevel {
+  /**
+   * 只在正常模式显示
+   */
   ONLY_NORMAL,
-  ONAL_AOD,
+  /**
+   * 只在息屏模式显示
+   */
+  ONLY_AOD,
+  /**
+   * 只在编辑模式显示
+   */
   ONLY_EDIT
 }
 /** 数据类型 */
@@ -144,7 +153,9 @@ interface WIDGET_ID {
   /** 文本 */
   TEXT,
   /** 组 */
-  GROUP
+  GROUP,
+  /** 可编辑组 */
+  WATCHFACE_EDIT_GROUP
 }
 /** 部件 */
 interface WIDGET {
