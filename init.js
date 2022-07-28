@@ -36,6 +36,7 @@ const hmUI = new class HMUI {
     HEART = "心率"
     /** 湿度 */
     HUMIDITY = "湿度"
+    /** 卡路里 */
     CAL = "CAL"
     CAL_TARGET = "CAL_TARGET"
     /** 一周的PAI */
@@ -44,9 +45,16 @@ const hmUI = new class HMUI {
     PAI_DAILY = "一天的PAI"
     /** 站立 */
     STAND = "站立"
+    /** 当前里程 */
+    DISTANCE = "当前里程"
     STAND_TARGET = "STAND_TARGET"
+    /** 天气 */
+    WEATHER = "WEATHER"
+    /** 当前温度 */
     WEATHER_CURRENT = "WEATHER_CURRENT"
+    /** 最低温度 */
     WEATHER_LOW = "WEATHER_LOW"
+    /** 最高温度 */
     WEATHER_HIGH = "WEATHER_HIGH"
     UVI = "UVI"
     AQI = "AQI"
@@ -55,7 +63,9 @@ const hmUI = new class HMUI {
     FAT_BURNING = "FAT_BURNING"
     FAT_BURNING_TARGET = "FAT_BURNING_TARGET"
     SUN_CURRENT = "SUN_CURRENT"
+    /** 日出 */
     SUN_RISE = "SUN_RISE"
+    /** 日落 */
     SUN_SET = "SUN_SET"
     WIND = "WIND"
     STRESS = "STRESS"
