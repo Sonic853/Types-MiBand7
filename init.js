@@ -76,6 +76,7 @@ const hmUI = new class HMUI {
     ALARM_CLOCK = "ALARM_CLOCK"
     COUNT_DOWN = "COUNT_DOWN"
     STOP_WATCH = "STOP_WATCH"
+    /** 睡眠 */
     SLEEP = "SLEEP"
   }
   /** 对齐方式 */
